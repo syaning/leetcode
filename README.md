@@ -6,6 +6,7 @@
 019. [Remove Nth Node From End of List](./019-remove-nth-node-from-end-of-list)
 020. [Valid Parentheses](./020-valid-parentheses)
 021. [Merge Two Sorted Lists](./021-merge-two-sorted-lists)
+026. [Remove Duplicates from Sorted Array](./026-remove-duplicates-from-sorted-array)
 104. [Maximum Depth of Binary Tree](./104-maximum-depth-of-binary-tree)
 114. [Flatten Binary Tree to Linked List](./114-flatten-binary-tree-to-linked-list)
 136. [Single Number](./136-single-number)
