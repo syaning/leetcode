@@ -9,6 +9,8 @@
 021. [Merge Two Sorted Lists](./021-merge-two-sorted-lists)
 026. [Remove Duplicates from Sorted Array](./026-remove-duplicates-from-sorted-array)
 027. [Remove Element](./027-remove-element)
+058. [Length of Last Word](./058-length-of-last-word)
+067. [Add Binary](./067-add-binary)
 104. [Maximum Depth of Binary Tree](./104-maximum-depth-of-binary-tree)
 114. [Flatten Binary Tree to Linked List](./114-flatten-binary-tree-to-linked-list)
 136. [Single Number](./136-single-number)
