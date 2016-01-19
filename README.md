@@ -14,6 +14,8 @@
 100. [Same Tree](./100-same-tree)
 104. [Maximum Depth of Binary Tree](./104-maximum-depth-of-binary-tree)
 114. [Flatten Binary Tree to Linked List](./114-flatten-binary-tree-to-linked-list)
+118. [Pascal's Triangle](./118-pascals-triangle)
+119. [Pascal's Triangle II](./119-pascals-triangle-2)
 136. [Single Number](./136-single-number)
 206. [Reverse Linked List](./206-reverse-linked-list)
 217. [Contains Duplicate](./217-contains-duplicate)
