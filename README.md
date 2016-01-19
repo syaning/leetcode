@@ -16,6 +16,7 @@
 114. [Flatten Binary Tree to Linked List](./114-flatten-binary-tree-to-linked-list)
 118. [Pascal's Triangle](./118-pascals-triangle)
 119. [Pascal's Triangle II](./119-pascals-triangle-2)
+125. [Valid Palindrome](./125-valid-palindrome)
 136. [Single Number](./136-single-number)
 206. [Reverse Linked List](./206-reverse-linked-list)
 217. [Contains Duplicate](./217-contains-duplicate)
