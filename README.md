@@ -26,3 +26,4 @@
 283. [Move Zeroes](./283-move-zeroes)
 290. [Word Pattern](./290-word-pattern)
 292. [Nim Game](./292-nim-game)
+299. [Bulls and Cows](./299-bulls-and-cows)
