@@ -23,3 +23,5 @@
 223. [Rectangle Area](./223-rectangle-area)
 263. [Ugly Number](./263-ugly-number)
 278. [First Bad Version](./278-first-bad-version)
+283. [Move Zeroes](./283-move-zeroes)
+290. [Word Pattern](./290-word-pattern)
