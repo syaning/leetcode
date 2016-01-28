@@ -25,3 +25,4 @@
 278. [First Bad Version](./278-first-bad-version)
 283. [Move Zeroes](./283-move-zeroes)
 290. [Word Pattern](./290-word-pattern)
+292. [Nim Game](./292-nim-game)
