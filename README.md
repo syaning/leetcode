@@ -9,6 +9,8 @@
 021. [Merge Two Sorted Lists](./021-merge-two-sorted-lists)
 026. [Remove Duplicates from Sorted Array](./026-remove-duplicates-from-sorted-array)
 027. [Remove Element](./027-remove-element)
+028. [Implement strStr()](./028-implement-strstr)
+036. [Valid Sudoku](./036-valid-sudoku)
 058. [Length of Last Word](./058-length-of-last-word)
 067. [Add Binary](./067-add-binary)
 100. [Same Tree](./100-same-tree)
