@@ -27,3 +27,5 @@
 290. [Word Pattern](./290-word-pattern)
 292. [Nim Game](./292-nim-game)
 299. [Bulls and Cows](./299-bulls-and-cows)
+303. [Range Sum Query - Immutable](./303-range-sum-query-immutable)
+326. [Power of Three](./326-power-of-three)
