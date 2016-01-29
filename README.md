@@ -11,6 +11,7 @@
 027. [Remove Element](./027-remove-element)
 028. [Implement strStr()](./028-implement-strstr)
 036. [Valid Sudoku](./036-valid-sudoku)
+038. [Count and Say](./038-count-and-say)
 058. [Length of Last Word](./058-length-of-last-word)
 067. [Add Binary](./067-add-binary)
 100. [Same Tree](./100-same-tree)
