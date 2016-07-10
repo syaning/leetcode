@@ -13,4 +13,4 @@ var reverse = function(x) {
 		x = x / 10 >> 0;
 	}
 	return val <= 2147483647 ? val : 0;
-};
+}
