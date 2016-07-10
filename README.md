@@ -7,6 +7,7 @@
 005. [Longest Palindromic Substring](./005-longest-palindromic-substring)
 006. [ZigZag Conversion](./006-zigzag-conversion)
 007. [Reverse Integer](./007-reverse-integer)
+008. [String to Integer (atoi)](./008-string-to-integer)
 014. [Longest Common Prefix](./014-longest-common-prefix)
 019. [Remove Nth Node From End of List](./019-remove-nth-node-from-end-of-list)
 020. [Valid Parentheses](./020-valid-parentheses)
