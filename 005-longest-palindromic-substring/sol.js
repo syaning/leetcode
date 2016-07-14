@@ -12,13 +12,8 @@ var longestPalindrome = function(s) {
 		let len = Math.max(len1, len2)
 
 		if (len > end - start) {
-			if (len % 2 === 0) {
-				start = i - len / 2 + 1
-				end = i + len / 2
-			} else {
-				start = i - (len - 1) / 2
-				end = end = i + (len - 1) / 2
-			}
+			start = i - ((len - 1) / 2 >> 0)
+			end = i + (len / 2 >> 0)
 		}
 	}
 
