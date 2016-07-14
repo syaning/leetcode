@@ -14,9 +14,7 @@ var myAtoi = function(str) {
 	var result = 0
 	var sign = 1
 
-	while (i < str.length && str[i] === ' ') {
-		i++
-	}
+	str = str.trim()
 
 	if (str[i] === '+') {
 		i++
@@ -25,7 +23,7 @@ var myAtoi = function(str) {
 		i++
 	}
 
-	while (i < str.length && str[i] >= '0' && str[i] <= 9) {
+	while (i < str.length && str[i] >= '0' && str[i] <= '9') {
 		let num = +str[i]
 
 		if (result > (INT_MAX - num) / 10) {
