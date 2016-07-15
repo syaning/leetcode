@@ -22,6 +22,8 @@
 020. [Valid Parentheses](./020-valid-parentheses)
 021. [Merge Two Sorted Lists](./021-merge-two-sorted-lists)
 022. [Generate Parentheses](./generate-parentheses)
+023. Merge k Sorted Lists
+024. [Swap Nodes in Pairs](./024-swap-nodes-in-pairs)
 026. [Remove Duplicates from Sorted Array](./026-remove-duplicates-from-sorted-array)
 027. [Remove Element](./027-remove-element)
 028. [Implement strStr()](./028-implement-strstr)
