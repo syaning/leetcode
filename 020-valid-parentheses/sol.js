@@ -3,20 +3,20 @@
  * @return {boolean}
  */
 var isValid = function(s) {
-    var stack = [];
-    var labels = {
-        '(': ')',
-        '[': ']',
-        '{': '}'
-    };
+  var stack = []
+  var labels = {
+    '(': ')',
+    '[': ']',
+    '{': '}'
+  }
 
-    for (var ch of s) {
-        if (labels.hasOwnProperty(ch)) {
-            stack.push(ch);
-        } else if (stack.length === 0 || labels[stack.pop()] !== ch) {
-            return false;
-        }
+  for (let ch of s) {
+    if (labels.hasOwnProperty(ch)) {
+      stack.push(ch)
+    } else if (stack.length === 0 || labels[stack.pop()] !== ch) {
+      return false
     }
+  }
 
-    return stack.length === 0;
-};
+  return stack.length === 0
+}
