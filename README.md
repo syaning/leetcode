@@ -14,7 +14,7 @@
 012. [Integer to Roman](./012-integer-to-roman)
 013. [Roman to Integer](./013-roman-to-integer)
 014. [Longest Common Prefix](./014-longest-common-prefix)
-015. 3Sum
+015. [3Sum](./015-3sum)
 019. [Remove Nth Node From End of List](./019-remove-nth-node-from-end-of-list)
 020. [Valid Parentheses](./020-valid-parentheses)
 021. [Merge Two Sorted Lists](./021-merge-two-sorted-lists)
