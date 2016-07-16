@@ -28,6 +28,9 @@
 026. [Remove Duplicates from Sorted Array](./026-remove-duplicates-from-sorted-array)
 027. [Remove Element](./027-remove-element)
 028. [Implement strStr()](./028-implement-strstr)
+029. Divide Two Integers
+030. Substring with Concatenation of All Words
+031. [Next Permutation](./031-next-permutation)
 036. [Valid Sudoku](./036-valid-sudoku)
 038. [Count and Say](./038-count-and-say)
 058. [Length of Last Word](./058-length-of-last-word)
