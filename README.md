@@ -36,7 +36,9 @@
 034. [Search for a Range](./034-search-for-a-range)
 035. [Search Insert Position](./035-search-insert-position)
 036. [Valid Sudoku](./036-valid-sudoku)
+037. Sudoku Solver
 038. [Count and Say](./038-count-and-say)
+039. [Combination Sum](./039-combination-sum)
 058. [Length of Last Word](./058-length-of-last-word)
 066. [Plus One](./066-plus-one)
 067. [Add Binary](./067-add-binary)
