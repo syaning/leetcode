@@ -31,6 +31,7 @@
 029. Divide Two Integers
 030. Substring with Concatenation of All Words
 031. [Next Permutation](./031-next-permutation)
+032. [Longest Valid Parentheses](./032-longest-valid-parentheses)
 036. [Valid Sudoku](./036-valid-sudoku)
 038. [Count and Say](./038-count-and-say)
 058. [Length of Last Word](./058-length-of-last-word)
