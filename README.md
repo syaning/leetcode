@@ -33,6 +33,7 @@
 031. [Next Permutation](./031-next-permutation)
 032. [Longest Valid Parentheses](./032-longest-valid-parentheses)
 033. [Search in Rotated Sorted Array](./033-search-in-rotated-sorted-array)
+034. [Search for a Range](./034-search-for-a-range)
 036. [Valid Sudoku](./036-valid-sudoku)
 038. [Count and Say](./038-count-and-say)
 058. [Length of Last Word](./058-length-of-last-word)
