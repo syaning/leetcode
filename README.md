@@ -40,6 +40,7 @@
 038. [Count and Say](./038-count-and-say)
 039. [Combination Sum](./039-combination-sum)
 040. [Combination Sum II](./040-combination-sum-2)
+041. [First Missing Positive](./041-first-missing-positive)
 058. [Length of Last Word](./058-length-of-last-word)
 066. [Plus One](./066-plus-one)
 067. [Add Binary](./067-add-binary)
