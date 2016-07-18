@@ -43,6 +43,8 @@
 041. [First Missing Positive](./041-first-missing-positive)
 042. Trapping Rain Water
 043. [Multiply Strings](./043-multiply-strings)
+044. Wildcard Matching
+045. [Jump Game II](./045-jump-game-2)
 058. [Length of Last Word](./058-length-of-last-word)
 066. [Plus One](./066-plus-one)
 067. [Add Binary](./067-add-binary)
