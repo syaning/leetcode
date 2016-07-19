@@ -47,6 +47,7 @@
 045. [Jump Game II](./045-jump-game-2)
 046. [Permutations](./046-permutations)
 047. [Permutations II](./047-permutations-2)
+048. [Rotate Image](./048-rotate-image)
 058. [Length of Last Word](./058-length-of-last-word)
 066. [Plus One](./066-plus-one)
 067. [Add Binary](./067-add-binary)
