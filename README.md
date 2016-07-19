@@ -49,6 +49,7 @@
 047. [Permutations II](./047-permutations-2)
 048. [Rotate Image](./048-rotate-image)
 049. [Group Anagrams](./049-group-anagrams)
+050. [Pow(x, n)](./050-pow)
 058. [Length of Last Word](./058-length-of-last-word)
 066. [Plus One](./066-plus-one)
 067. [Add Binary](./067-add-binary)
