@@ -53,6 +53,7 @@
 051. N-Queens
 052. N-Queens II
 053. [Maximum Subarray](./053-maximum-subarray)
+054. [Spiral Matrix](./054-spiral-matrix)
 058. [Length of Last Word](./058-length-of-last-word)
 066. [Plus One](./066-plus-one)
 067. [Add Binary](./067-add-binary)
