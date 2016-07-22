@@ -58,6 +58,7 @@
 056. [Merge Intervals](./056-merge-intervals)
 057. [Insert Interval](./057-insert-interval)
 058. [Length of Last Word](./058-length-of-last-word)
+059. [Spiral Matrix II](./059-spiral-matrix-2)
 066. [Plus One](./066-plus-one)
 067. [Add Binary](./067-add-binary)
 070. [Climbing Stairs](./070-climbing-stairs)
