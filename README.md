@@ -56,6 +56,7 @@
 054. [Spiral Matrix](./054-spiral-matrix)
 055. [Jump Game](./055-jump-game)
 056. [Merge Intervals](./056-merge-intervals)
+057. [Insert Interval](./057-insert-interval)
 058. [Length of Last Word](./058-length-of-last-word)
 066. [Plus One](./066-plus-one)
 067. [Add Binary](./067-add-binary)
