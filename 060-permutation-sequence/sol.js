@@ -4,29 +4,23 @@
  * @return {string}
  */
 var getPermutation = function(n, k) {
-    function permuteStr(str, k) {
-        if (str.length === 1) {
-            return str
-        }
-        var size = factorial(str.length - 1)
-        var i = k % size === 0 ? k / size - 1 : k / size >> 0
-        k = k % size === 0 ? size : k % size
-        var newStr = str.slice(0, i) + str.slice(i + 1)
-        return str[i] + permuteStr(newStr, str.length - 1, k)
-    }
+  var fac = [1]
+  for (let i = 1; i <= n; i++) {
+    fac[i] = fac[i - 1] * i
+  }
 
-    function factorial(n) {
-        if (n === 0 || n === 1) {
-            return 1
-        }
-        return n * factorial(n - 1)
-    }
+  var str = []
+  for (let i = 1; i <= n; i++) {
+    str.push('' + i)
+  }
 
-    var str = ''
-    for (var i = 1; i <= n; i++) {
-        str = str + i
-    }
-    return permuteStr(str, k)
+  var result = []
+  for (let i = 0; i < n; i++) {
+    let index = (k - 1) / fac[n - i - 1] >> 0
+    result.push(str[index])
+    str.splice(index, 1)
+    k = (k - 1) % fac[n - i - 1] + 1
+  }
+
+  return result.join('')
 }
-
-console.log(getPermutation(3, 1))
