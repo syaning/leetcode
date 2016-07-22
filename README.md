@@ -61,6 +61,7 @@
 059. [Spiral Matrix II](./059-spiral-matrix-2)
 060. [Permutation Sequence](./060-permutation-sequence)
 061. [Rotate List](./061-rotate-list)
+062. [Unique Paths](./062-unique-paths)
 066. [Plus One](./066-plus-one)
 067. [Add Binary](./067-add-binary)
 070. [Climbing Stairs](./070-climbing-stairs)
