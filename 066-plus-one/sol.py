@@ -5,7 +5,7 @@ class Solution(object):
         :type digits: List[int]
         :rtype: List[int]
         """
-        digits[len(digits) - 1] += 1
+        digits[- 1] += 1
         for i in reversed(range(len(digits))):
             if digits[i] >= 10:
                 digits[i] -= 10
@@ -15,5 +15,4 @@ class Solution(object):
                     digits[i - 1] += 1
             else:
                 return digits
-
         return digits
