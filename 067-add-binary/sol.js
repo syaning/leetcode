@@ -4,23 +4,22 @@
  * @return {string}
  */
 var addBinary = function(a, b) {
-    var stra = a.split('').reverse();
-    var strb = b.split('').reverse();
+  a = a.split('').reverse()
+  b = b.split('').reverse()
 
-    var carry = 0,
-        sum = 0,
-        result = [],
-        i = 0;
-    while (i < stra.length || i < strb.length) {
-        sum = (+stra[i] || 0) + (+strb[i] || 0) + carry;
-        result.push(sum % 2);
-        carry = sum / 2 >> 0;
-        i++;
-    }
+  var carry = 0
+  var result = []
+  var len = Math.max(a.length, b.length)
 
-    if (carry) {
-        result.push(carry);
-    }
+  for (let i = 0; i < len; i++) {
+    let sum = (+a[i] || 0) + (+b[i] || 0) + carry
+    result.push(sum % 2)
+    carry = sum / 2 >> 0
+  }
 
-    return result.reverse().join('');
-};
+  if (carry) {
+    result.push(carry)
+  }
+
+  return result.reverse().join('')
+}
