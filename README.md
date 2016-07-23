@@ -68,6 +68,7 @@
 066. [Plus One](./066-plus-one)
 067. [Add Binary](./067-add-binary)
 068. [Text Justification](./068-text-justification)
+069. [Sqrt(x)](./069-sqrt)
 070. [Climbing Stairs](./070-climbing-stairs)
 083. [Remove Duplicates from Sorted List](./083-remove-duplicates-from-sorted-list)
 100. [Same Tree](./100-same-tree)
