@@ -70,6 +70,7 @@
 068. [Text Justification](./068-text-justification)
 069. [Sqrt(x)](./069-sqrt)
 070. [Climbing Stairs](./070-climbing-stairs)
+071. [Simplify Path](./071-simplify-path)
 083. [Remove Duplicates from Sorted List](./083-remove-duplicates-from-sorted-list)
 100. [Same Tree](./100-same-tree)
 101. [Symmetric Tree](./101-symmetric-tree)
