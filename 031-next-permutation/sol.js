@@ -22,7 +22,6 @@ var nextPermutation = function(nums) {
   var temp = nums[i]
   nums[i] = nums[j]
   nums[j] = temp
-  console.log(nums)
 
   for (var k = 0; k < (nums.length - i) / 2 >> 0; k++) {
     temp = nums[i + k + 1]
