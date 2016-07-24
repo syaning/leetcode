@@ -75,6 +75,8 @@
 073. [Set Matrix Zeroes](./073-set-matrix-zeroes)
 074. [Search a 2D Matrix](./074-search-a-2d-matrix)
 075. [Sort Colors](./075-sort-colors)
+076. Minimum Window Substring
+077. [Combinations](./077-combinations)
 083. [Remove Duplicates from Sorted List](./083-remove-duplicates-from-sorted-list)
 100. [Same Tree](./100-same-tree)
 101. [Symmetric Tree](./101-symmetric-tree)
