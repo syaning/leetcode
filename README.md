@@ -78,7 +78,27 @@
 076. Minimum Window Substring
 077. [Combinations](./077-combinations)
 078. [Subsets](./078-subsets)
+079. Word Search
+080. Remove Duplicates from Sorted Array II
+081. Search in Rotated Sorted Array II
+082. Remove Duplicates from Sorted List II
 083. [Remove Duplicates from Sorted List](./083-remove-duplicates-from-sorted-list)
+084. Largest Rectangle in Histogram
+085. Maximal Rectangle
+086. Partition List
+087. Scramble String
+088. Merge Sorted Array
+089. Gray Code
+090. Subsets II
+091. Decode Ways
+092. Reverse Linked List II
+093. Restore IP Addresses
+094. Binary Tree Inorder Traversal
+095. Unique Binary Search Trees II
+096. Unique Binary Search Trees
+097. Interleaving String
+098. Validate Binary Search Tree
+099. Recover Binary Search Tree
 100. [Same Tree](./100-same-tree)
 101. [Symmetric Tree](./101-symmetric-tree)
 104. [Maximum Depth of Binary Tree](./104-maximum-depth-of-binary-tree)
