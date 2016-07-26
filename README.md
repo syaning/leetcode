@@ -95,7 +95,7 @@
 093. Restore IP Addresses
 094. Binary Tree Inorder Traversal
 095. Unique Binary Search Trees II
-096. Unique Binary Search Trees
+096. [Unique Binary Search Trees](./096-unique-binary-search-trees)
 097. Interleaving String
 098. Validate Binary Search Tree
 099. Recover Binary Search Tree
