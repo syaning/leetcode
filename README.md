@@ -176,14 +176,72 @@
 174. Dungeon Game
 175. [Combine Two Tables](./175-combine-two-tables)
 176. [Second Highest Salary](./176-second-highest-salary)
+177. Nth Highest Salary
+178. Rank Scores
+179. Largest Number
+180. Consecutive Numbers
 181. [Employees Earning More Than Their Managers](./181-employees-earning-more-than-their-managers)
 182. [Duplicate Emails](./182-duplicate-emails)
 183. [Customers Who Never Order](./183-customers-who-never-order)
+184. Department Highest Salary
+185. Department Top Three Salaries
+186. :lock:Reverse Words in a String II
+187. Repeated DNA Sequences
+188. Best Time to Buy and Sell Stock IV
+189. Rotate Array
+190. Reverse Bits
+191. Number of 1 Bits
+192. Word Frequency
+193. Valid Phone Numbers
+194. Transpose File
+195. Tenth Line
 196. [Delete Duplicate Emails](./196-delete-duplicate-emails)
 197. [Rising Temperature](./197-rising-temperature)
+198. House Robber
+199. Binary Tree Right Side View
+200. Number of Islands
+201. Bitwise AND of Numbers Range
+202. Happy Number
+203. Remove Linked List Elements
+204. Count Primes
+205. Isomorphic Strings
 206. [Reverse Linked List](./206-reverse-linked-list)
+207. Course Schedule
+208. Implement Trie (Prefix Tree)
+209. Minimum Size Subarray Sum
+210. Course Schedule II
+211. Add and Search Word - Data structure design
+212. Word Search II
+213. House Robber II
+214. Shortest Palindrome
+215. Kth Largest Element in an Array
+216. Combination Sum III
 217. [Contains Duplicate](./217-contains-duplicate)
+218. The Skyline Problem
+219. Contains Duplicate II
+220. Contains Duplicate III
+221. Maximal Square
+222. Count Complete Tree Nodes
 223. [Rectangle Area](./223-rectangle-area)
+224. Basic Calculator
+225. Implement Stack using Queues
+226. Invert Binary Tree
+227. Basic Calculator II
+228. Summary Ranges
+229. Majority Element II
+230. Kth Smallest Element in a BST
+231. Power of Two
+232. Implement Queue using Stacks
+233. Number of Digit One
+234. Palindrome Linked List
+235. Lowest Common Ancestor of a Binary Search Tree
+236. Lowest Common Ancestor of a Binary Tree
+237. Delete Node in a Linked List
+238. Product of Array Except Self
+239. Sliding Window Maximum
+240. Search a 2D Matrix II
+241. Different Ways to Add Parentheses
+242. Valid Anagram
 243. :lock:Shortest Word Distance
 244. :lock:Shortest Word Distance II
 245. :lock:Shortest Word Distance III
@@ -198,12 +256,52 @@
 254. :lock:Factor Combinations
 255. :lock:Verify Preorder Sequence in Binary Search Tree
 256. :lock:Paint House
+257. Binary Tree Paths
+258. Add Digits
+259. :lock:3Sum Smaller
+260. Single Number III
+261. :lock:Graph Valid Tree
+262. Trips and Users
 263. [Ugly Number](./263-ugly-number)
+264. Ugly Number II
+265. :lock:Paint House II
+266. :lock:Palindrome Permutation
+267. :lock:Palindrome Permutation II
+268. Missing Number
+269. :lock:Alien Dictionary
+270. :lock:Closest Binary Search Tree Value
+271. :lock:Encode and Decode Strings
+272. :lock:Closest Binary Search Tree Value II
+273. Integer to English Words
+274. H-Index
+275. H-Index II
+276. :lock:Paint Fence
+277. :lock:Find the Celebrity
 278. [First Bad Version](./278-first-bad-version)
+279. Perfect Squares
+280. :lock:Wiggle Sort
+281. :lock:Zigzag Iterator
+282. Expression Add Operators
 283. [Move Zeroes](./283-move-zeroes)
+284. Peeking Iterator
+285. :lock:Inorder Successor in BST
+286. :lock:Walls and Gates
+287. Find the Duplicate Number
+288. :lock:Unique Word Abbreviation
+289. Game of Life
 290. [Word Pattern](./290-word-pattern)
+291. :lock:Word Pattern II
 292. [Nim Game](./292-nim-game)
+293. :lock:Flip Game
+294. :lock:Flip Game II
+295. Find Median from Data Stream
+296. :lock:Best Meeting Point
+297. Serialize and Deserialize Binary Tree
+298. :lock:Binary Tree Longest Consecutive Sequence
 299. [Bulls and Cows](./299-bulls-and-cows)
+300. Longest Increasing Subsequence
+301. Remove Invalid Parentheses
+302. :lock:Smallest Rectangle Enclosing Black Pixels
 303. [Range Sum Query - Immutable](./303-range-sum-query-immutable)
 326. [Power of Three](./326-power-of-three)
 328. [Odd Even Linked List](./328-odd-even-linked-list)
