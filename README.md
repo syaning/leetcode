@@ -109,7 +109,7 @@
 107. [Binary Tree Level Order Traversal II](./107-binary-tree-level-order-traversal-2)
 108. Convert Sorted Array to Binary Search Tree
 109. Convert Sorted List to Binary Search Tree
-110. Balanced Binary Tree
+110. [Balanced Binary Tree](./110-balanced-binary-tree)
 111. [Minimum Depth of Binary Tree](./111-minimum-depth-of-binary-tree)
 112. Path Sum
 113. Path Sum II
