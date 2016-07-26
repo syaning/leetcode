@@ -154,7 +154,7 @@
 152. Maximum Product Subarray
 153. Find Minimum in Rotated Sorted Array
 154. Find Minimum in Rotated Sorted Array II
-155. Min Stack
+155. [Min Stack](./155-min-stack)
 156. :lock:Binary Tree Upside Down
 157. :lock:Read N Characters Given Read4
 158. :lock:Read N Characters Given Read4 II - Call multiple times
