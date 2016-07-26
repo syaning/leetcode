@@ -150,7 +150,7 @@
 148. Sort List
 149. Max Points on a Line
 150. Evaluate Reverse Polish Notation
-151. Reverse Words in a String
+151. [Reverse Words in a String](./151-reverse-words-in-a-string)
 152. Maximum Product Subarray
 153. [Find Minimum in Rotated Sorted Array](./153-find-minimum-in-rotated-sorted-array)
 154. Find Minimum in Rotated Sorted Array II
