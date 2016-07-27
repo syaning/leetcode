@@ -111,8 +111,8 @@
 109. Convert Sorted List to Binary Search Tree
 110. [Balanced Binary Tree](./110-balanced-binary-tree)
 111. [Minimum Depth of Binary Tree](./111-minimum-depth-of-binary-tree)
-112. Path Sum
-113. Path Sum II
+112. [Path Sum](./112-path-sum)
+113. [Path Sum II](./113-path-sum-2)
 114. [Flatten Binary Tree to Linked List](./114-flatten-binary-tree-to-linked-list)
 115. Distinct Subsequences
 116. Populating Next Right Pointers in Each Node
