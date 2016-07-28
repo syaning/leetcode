@@ -18,18 +18,13 @@ var search = function(nums, target) {
       return m
     }
 
-    if (nums[m] < nums[r]) {
-      if (target > nums[m] && target <= nums[r]) {
-        l = m + 1
-      } else {
-        r = m - 1
-      }
+    let inLeft = nums[m] > nums[l] && target >= nums[l] && target < nums[m]
+    let notInRight = nums[m] < nums[l] && !(target <= nums[r] && target > nums[m])
+
+    if (inLeft || notInRight) {
+      r = m - 1
     } else {
-      if (target >= nums[l] && target < nums[m]) {
-        r = m - 1
-      } else {
-        l = m + 1
-      }
+      l = m + 1
     }
   }
 
