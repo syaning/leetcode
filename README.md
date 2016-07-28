@@ -79,7 +79,7 @@
 077. [Combinations](./077-combinations)
 078. [Subsets](./078-subsets)
 079. Word Search
-080. Remove Duplicates from Sorted Array II
+080. [Remove Duplicates from Sorted Array II](./080-remove-duplicates-from-sorted-array-2)
 081. Search in Rotated Sorted Array II
 082. Remove Duplicates from Sorted List II
 083. [Remove Duplicates from Sorted List](./083-remove-duplicates-from-sorted-list)
