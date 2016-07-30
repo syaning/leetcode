@@ -97,7 +97,7 @@
 095. Unique Binary Search Trees II
 096. [Unique Binary Search Trees](./096-unique-binary-search-trees)
 097. Interleaving String
-098. Validate Binary Search Tree
+098. [Validate Binary Search Tree](./098-validate-binary-search-tree)
 099. Recover Binary Search Tree
 100. [Same Tree](./100-same-tree)
 101. [Symmetric Tree](./101-symmetric-tree)
