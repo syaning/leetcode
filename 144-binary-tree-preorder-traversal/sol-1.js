@@ -10,12 +10,12 @@
  * @return {number[]}
  */
 var preorderTraversal = function(root) {
-    if (!root) {
-        return []
-    }
+  if (!root) {
+    return []
+  }
 
-    var result = [root.val]
-    result = result.concat(preorderTraversal(root.left))
-    result = result.concat(preorderTraversal(root.right))
-    return result
+  var result = [root.val]
+  result = result.concat(preorderTraversal(root.left))
+  result = result.concat(preorderTraversal(root.right))
+  return result
 }
