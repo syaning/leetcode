@@ -303,5 +303,77 @@
 301. Remove Invalid Parentheses
 302. :lock:Smallest Rectangle Enclosing Black Pixels
 303. [Range Sum Query - Immutable](./303-range-sum-query-immutable)
+304. Range Sum Query 2D - Immutable
+305. :lock:Number of Islands II
+306. Additive Number
+307. Range Sum Query - Mutable
+308. :lock:Range Sum Query 2D - Mutable
+309. Best Time to Buy and Sell Stock with Cooldown
+310. Minimum Height Trees
+311. :lock:Sparse Matrix Multiplication
+312. Burst Balloons
+313. Super Ugly Number
+314. :lock:Binary Tree Vertical Order Traversal
+315. Count of Smaller Numbers After Self
+316. Remove Duplicate Letters
+317. :lock:Shortest Distance from All Buildings
+318. Maximum Product of Word Lengths
+319. Bulb Switcher
+320. :lock:Generalized Abbreviation
+321. Create Maximum Number
+322. Coin Change
+323. :lock:Number of Connected Components in an Undirected Graph
+324. Wiggle Sort II
+325. :lock:Maximum Size Subarray Sum Equals k
 326. [Power of Three](./326-power-of-three)
+327. Count of Range Sum
 328. [Odd Even Linked List](./328-odd-even-linked-list)
+329. Longest Increasing Path in a Matrix
+330. Patching Array
+331. Verify Preorder Serialization of a Binary Tree
+332. Reconstruct Itinerary
+333. :lock:Largest BST Subtree
+334. Increasing Triplet Subsequence
+335. Self Crossing
+336. Palindrome Pairs
+337. House Robber III
+338. Counting Bits
+339. :lock:Nested List Weight Sum
+340. :lock:Longest Substring with At Most K Distinct Characters
+341. Flatten Nested List Iterator
+342. Power of Four
+343. Integer Break
+344. Reverse String
+345. Reverse Vowels of a String
+346. :lock:Moving Average from Data Stream
+347. Top K Frequent Elements
+348. :lock:Design Tic-Tac-Toe
+349. Intersection of Two Arrays
+350. Intersection of Two Arrays II
+351. :lock:Android Unlock Patterns
+352. Data Stream as Disjoint Intervals
+353. :lock:Design Snake Game
+354. Russian Doll Envelopes
+355. Design Twitter
+356. :lock:Line Reflection
+357. Count Numbers with Unique Digits
+358. :lock:Rearrange String k Distance Apart
+359. :lock:Logger Rate Limiter
+360. :lock:Sort Transformed Array
+361. :lock:Bomb Enemy
+362. :lock:Design Hit Counter
+363. Max Sum of Rectangle No Larger Than K
+364. :lock:Nested List Weight Sum II
+365. Water and Jug Problem
+366. :lock:Find Leaves of Binary Tree
+367. Valid Perfect Square
+368. Largest Divisible Subset
+369. :lock:Plus One Linked List
+370. :lock:Range Addition
+371. Sum of Two Integers
+372. Super Pow
+373. Find K Pairs with Smallest Sums
+374. Guess Number Higher or Lower
+375. Guess Number Higher or Lower II
+376. Wiggle Subsequence
+377. Combination Sum IV
