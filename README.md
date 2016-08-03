@@ -87,7 +87,7 @@
 085. Maximal Rectangle
 086. [Partition List](./086-partition-list)
 087. Scramble String
-088. Merge Sorted Array
+088. [Merge Sorted Array](./088-merge-sorted-array)
 089. Gray Code
 090. Subsets II
 091. Decode Ways
