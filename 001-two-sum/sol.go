@@ -1,3 +1,5 @@
+package main
+
 func twoSum(nums []int, target int) []int {
 	lookup := make(map[int]int)
 
