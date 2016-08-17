@@ -1,14 +1,12 @@
 package main
 
-import "math"
-
 func longestPalindrome(s string) string {
 	start, end := 0, 0
 
 	for i := 0; i < len(s); i++ {
 		len1 := expandAroundCenter(s, i, i)
 		len2 := expandAroundCenter(s, i, i+1)
-		length := int(math.Max(float64(len1), float64(len2)))
+		length := max(len1, len2)
 
 		if length > end-start {
 			start = i - (length-1)/2
@@ -25,4 +23,11 @@ func expandAroundCenter(s string, left int, right int) int {
 		right++
 	}
 	return right - left - 1
+}
+
+func max(x int, y int) int {
+	if x >= y {
+		return x
+	}
+	return y
 }

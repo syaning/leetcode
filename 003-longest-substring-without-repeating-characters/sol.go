@@ -1,7 +1,5 @@
 package main
 
-import "math"
-
 func lengthOfLongestSubstring(s string) int {
 	lookup := make(map[uint8]int)
 	answer := 0
@@ -11,12 +9,19 @@ func lengthOfLongestSubstring(s string) int {
 		_, ok := lookup[ch]
 
 		if ok {
-			i = int(math.Max(float64(lookup[ch]), float64(i)))
+			i = max(lookup[ch], i)
 		}
 
-		answer = int(math.Max(float64(answer), float64(j-i+1)))
+		answer = max(answer, j-i+1)
 		lookup[ch] = j + 1
 	}
 
 	return answer
+}
+
+func max(x int, y int) int {
+	if x >= y {
+		return x
+	}
+	return y
 }
