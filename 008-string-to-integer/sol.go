@@ -11,19 +11,19 @@ func myAtoi(str string) int {
 	var sign int32 = 1
 	i := 0
 
-	for string(str[i]) == " " {
+	for str[i] == ' ' {
 		i++
 	}
 
-	if string(str[i]) == "+" {
+	if str[i] == '+' {
 		i++
-	} else if string(str[i]) == "-" {
+	} else if str[i] == '-' {
 		sign = -1
 		i++
 	}
 
-	for i < len(str) && string(str[i]) >= "0" && string(str[i]) <= "9" {
-		num := int32(str[i] - "0"[0])
+	for i < len(str) && str[i] >= '0' && str[i] <= '9' {
+		num := int32(str[i] - '0')
 
 		if result > (math.MaxInt32-num)/10 {
 			if sign > 0 {
