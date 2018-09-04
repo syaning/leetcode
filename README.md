@@ -1,4 +1,6 @@
-# leetcode-sol
+# LeetCode
+
+[LeetCode](https://leetcode.com/) solutions.
 
 001. [Two Sum](./001-two-sum)
 002. [Add Two Numbers](./002-add-two-numbers)
