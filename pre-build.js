@@ -32,7 +32,7 @@ async function ensureDir(dir) {
   }
 }
 
-async function process() {
+async function prebuild() {
   await ensureDir('build')
 
   for (let dir of dirs) {
@@ -66,8 +66,12 @@ async function parseEntry(group, entry) {
   for (const sol of sols) {
     const code = await fs.readFile(`${dir}/${sol}`, 'utf-8')
     const ext = path.extname(sol).slice(1)
-    const solData = [`## ${langExt[ext]}\n`, '```' + ext, code, '```'].join('\n')
-    solsData.push(solData)
+    solsData.push([
+      `## ${langExt[ext]}\n`,
+      '```' + langExt[ext],
+      code,
+      '```'
+    ].join('\n'))
   }
 
   // write readme
@@ -92,6 +96,7 @@ async function writeIndex() {
 
 async function writeVuepressConf() {
   const conf = {
+    base: process.env.BUILD_ENV === 'gh-pages' ? '/leetcode/' : '/',
     title: 'Leetcode Solutions',
     themeConfig: {
       sidebar,
@@ -105,4 +110,4 @@ async function writeVuepressConf() {
   await fs.writeFile(`build/.vuepress/config.js`, confData)
 }
 
-process()
+prebuild()
