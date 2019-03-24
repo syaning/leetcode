@@ -5,18 +5,35 @@
  *     this.left = this.right = null;
  * }
  */
+
 /**
  * @param {TreeNode} root
  * @return {number[]}
  */
-var inorderTraversal = function(root) {
+function inorderTraversal(root) {
   if (!root) {
     return []
   }
 
-  var result = []
-  var stack = []
-  var current = root
+  let result = []
+  result = result.concat(inorderTraversal(root.left))
+  result.push(root.val)
+  result = result.concat(inorderTraversal(root.right))
+  return result
+}
+
+/**
+ * @param {TreeNode} root
+ * @return {number[]}
+ */
+function inorderTraversal(root) {
+  if (!root) {
+    return []
+  }
+
+  const result = []
+  const stack = []
+  let current = root
 
   while (current || stack.length) {
     while (current) {
