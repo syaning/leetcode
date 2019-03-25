@@ -19,14 +19,18 @@ class Solution(object):
         ltr = True
         while current:
             vals, nxt = [], []
-            for node in current:
+            for node in reversed(current):
                 vals.append(node.val)
-                if node.left:
-                    nxt.append(node.left)
-                if node.right:
-                    nxt.append(node.right)
-            if not ltr:
-                vals.reverse()
+                if ltr:
+                    if node.left:
+                        nxt.append(node.left)
+                    if node.right:
+                        nxt.append(node.right)
+                else:
+                    if node.right:
+                        nxt.append(node.right)
+                    if node.left:
+                        nxt.append(node.left)
             ltr = not ltr
             result.append(vals)
             current = nxt

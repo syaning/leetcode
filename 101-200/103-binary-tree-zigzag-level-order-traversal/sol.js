@@ -9,34 +9,40 @@
  * @param {TreeNode} root
  * @return {number[][]}
  */
-var zigzagLevelOrder = function(root) {
+function zigzagLevelOrder(root) {
   if (!root) {
     return []
   }
 
-  var current = [root]
-  var result = []
-  var ltr = true
+  const result = []
+  let current = [root]
+  let ltr = true
 
   while (current.length) {
-    let vals = []
-    let next = []
+    const vals = []
+    const next = []
 
-    for (let node of current) {
+    for (let i = current.length - 1; i >= 0; i--) {
+      const node = current[i]
       vals.push(node.val)
-      if (node.left) {
-        next.push(node.left)
-      }
-      if (node.right) {
-        next.push(node.right)
+      if (ltr) {
+        if (node.left) {
+          next.push(node.left)
+        }
+        if (node.right) {
+          next.push(node.right)
+        }
+      } else {
+        if (node.right) {
+          next.push(node.right)
+        }
+        if (node.left) {
+          next.push(node.left)
+        }
       }
     }
 
-    if (!ltr) {
-      vals.reverse()
-    }
     ltr = !ltr
-
     result.push(vals)
     current = next
   }
