@@ -9,19 +9,19 @@
  * @param {TreeNode} root
  * @return {number[][]}
  */
-var levelOrderBottom = function(root) {
+function levelOrderBottom(root) {
   if (!root) {
     return []
   }
 
-  var current = [root]
-  var result = []
+  const result = []
+  let current = [root]
 
   while (current.length) {
     let vals = []
     let next = []
 
-    for (let node of current) {
+    current.forEach(node => {
       vals.push(node.val)
       if (node.left) {
         next.push(node.left)
@@ -29,11 +29,11 @@ var levelOrderBottom = function(root) {
       if (node.right) {
         next.push(node.right)
       }
-    }
+    })
 
-    result.push(vals)
+    result.unshift(vals)
     current = next
   }
 
-  return result.reverse()
+  return result
 }

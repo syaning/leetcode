@@ -24,7 +24,6 @@ class Solution(object):
                     nxt.append(node.left)
                 if node.right:
                     nxt.append(node.right)
-            result.append(vals)
+            result = [vals] + result
             current = nxt
-        result.reverse()
         return result
