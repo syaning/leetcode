@@ -15,7 +15,8 @@ class Solution(object):
         """
         if not root:
             return True
-        return abs(self.maxDepth(root.left) - self.maxDepth(root.right)) <= 1 and self.isBalanced(root.left) and self.isBalanced(root.right)
+        return abs(self.maxDepth(root.left) - self.maxDepth(root.right)) <= 1 \
+            and self.isBalanced(root.left) and self.isBalanced(root.right)
 
     def maxDepth(self, root):
         if not root:

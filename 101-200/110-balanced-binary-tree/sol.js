@@ -9,11 +9,11 @@
  * @param {TreeNode} root
  * @return {boolean}
  */
-var isBalanced = function(root) {
+function isBalanced(root) {
   if (!root) {
     return true
   }
-  return Math.abs(maxDepth(root.left), maxDepth(root.right)) <= 1 &&
+  return Math.abs(maxDepth(root.left) - maxDepth(root.right)) <= 1 &&
     isBalanced(root.left) && isBalanced(root.right)
 }
 
