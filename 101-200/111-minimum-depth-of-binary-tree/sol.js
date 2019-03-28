@@ -9,7 +9,7 @@
  * @param {TreeNode} root
  * @return {number}
  */
-var minDepth = function(root) {
+function minDepth(root) {
   if (!root) {
     return 0
   }
@@ -27,4 +27,39 @@ var minDepth = function(root) {
   }
 
   return 1
+}
+
+
+/**
+ * @param {TreeNode} root
+ * @return {number}
+ */
+function minDepth(root) {
+  if (!root) {
+    return 0
+  }
+
+  let depth = 1
+  let current = [root]
+
+  while (current.length) {
+    const next = []
+
+    for (let node of current) {
+      if (!node.left && !node.right) {
+        return depth
+      }
+      if (node.left) {
+        next.push(node.left)
+      }
+      if (node.right) {
+        next.push(node.right)
+      }
+    }
+
+    depth += 1
+    current = next
+  }
+
+  return depth
 }
