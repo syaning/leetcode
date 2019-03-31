@@ -10,8 +10,8 @@
  * @param {number} sum
  * @return {number[][]}
  */
-var pathSum = function(root, sum) {
-  var result = []
+function pathSum(root, sum) {
+  const result = []
   calcSum(root, sum, [], result)
   return result
 }
@@ -22,7 +22,7 @@ function calcSum(root, sum, nums, result) {
   }
 
   if (root.val === sum && !root.left && !root.right) {
-    result.push(nums.concat([root.val]))
+    result.push([...nums, root.val])
   }
 
   if (root.left) {
