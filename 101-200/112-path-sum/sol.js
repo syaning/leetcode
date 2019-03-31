@@ -10,7 +10,7 @@
  * @param {number} sum
  * @return {boolean}
  */
-var hasPathSum = function(root, sum) {
+function hasPathSum(root, sum) {
   if (!root) {
     return false
   }
