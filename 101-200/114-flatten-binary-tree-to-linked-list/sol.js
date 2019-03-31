@@ -9,7 +9,7 @@
  * @param {TreeNode} root
  * @return {void} Do not return anything, modify root in-place instead.
  */
-var flatten = function(root) {
+function flatten(root) {
   if (!root) {
     return
   }
