@@ -5,9 +5,14 @@ class Solution(object):
         :type rowIndex: int
         :rtype: List[int]
         """
-        factorial = lambda x: 1 if x == 0 else x * factorial(x - 1)
-        combination = lambda n, m: factorial(n) / factorial(m) / factorial(n - m)
-        result = []
-        for i in range(rowIndex + 1):
-            result.append(combination(rowIndex, i))
+        prev, result = [], [1]
+
+        for i in range(1, rowIndex + 1):
+            prev, result = result, []
+            for j in range(i + 1):
+                if j == 0 or j == i:
+                    result.append(1)
+                else:
+                    result.append(prev[j - 1] + prev[j])
+
         return result

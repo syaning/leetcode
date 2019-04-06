@@ -2,18 +2,22 @@
  * @param {number} rowIndex
  * @return {number[]}
  */
-var getRow = function(rowIndex) {
-	var result = [];
-	for (var i = 0; i <= rowIndex; i++) {
-		result.push(combination(rowIndex, i));
-	}
-	return result;
-};
+function getRow(rowIndex) {
+  let prev = []
+  let result = [1]
 
-function factorial(n) {
-	return n === 0 ? 1 : factorial(n - 1) * n;
-}
+  for (let i = 1; i <= rowIndex; i++) {
+    prev = result
+    result = []
 
-function combination(n, m) {
-	return factorial(n) / factorial(m) / factorial(n - m);
+    for (let j = 0; j < i + 1; j++) {
+      if (j === 0 || j === i) {
+        result.push(1)
+      } else {
+        result.push(prev[j - 1] + prev[j])
+      }
+    }
+  }
+
+  return result
 }
