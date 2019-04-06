@@ -1,4 +1,4 @@
-# 117. Populating Next Right Pointers in Each Node II
+# Populating Next Right Pointers in Each Node II
 
 Given a binary tree
 
