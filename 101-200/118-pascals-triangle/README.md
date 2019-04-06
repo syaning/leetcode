@@ -1,10 +1,16 @@
 # Pascal's Triangle
 
-Given numRows, generate the first numRows of Pascal's triangle.
+Given a non-negative integer *numRows*, generate the first *numRows* of Pascal's triangle.
 
-For example, given `numRows = 5`, Return
+![](./PascalTriangleAnimated2.gif)
+
+> In Pascal's triangle, each number is the sum of the two numbers directly above it.
+
+**Example:**
 
 ```
+Input: 5
+Output:
 [
      [1],
     [1,1],
